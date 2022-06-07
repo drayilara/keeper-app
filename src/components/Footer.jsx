@@ -7,7 +7,7 @@ function getCurrentYear() {
 export default function Footer() {
     return (
         <footer>
-            <p> Copyright <span>&copy</span> {getCurrentYear()} </p>
+            <p> Copyright {getCurrentYear()} </p>
         </footer>
     )
 }

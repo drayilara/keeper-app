@@ -6,12 +6,10 @@ import Note from "./Note";
 
 export default function App() {
     return (
-        <React.Fragment>
-
-        <Footer />
+        <React.Fragment>  
         <Navbar />
         <Note />
-
+        <Footer />
         </React.Fragment>   
     )
 }
