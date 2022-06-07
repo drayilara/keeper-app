@@ -13,7 +13,6 @@ export default function App() {
     return (
         <React.Fragment> 
         <Navbar />
-
         {
             notes.map(note => 
             <Note 
@@ -28,3 +27,5 @@ export default function App() {
         </React.Fragment>   
     )
 }
+
+// Ensure commit
